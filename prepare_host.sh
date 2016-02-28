@@ -18,7 +18,7 @@ source ~/.bashrc
 
 /etc/init.d/ntpd stop; 
 mv /etc/localtime /etc/localtime.bak; 
-ln -s /usr/share/zoneinfo/Asia/Dubai /etc/localtime; 
+ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime; 
 /etc/init.d/ntpd start
 
 sestatus; chkconfig iptables off; service iptables stop; service iptables status 
