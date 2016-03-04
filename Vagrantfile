@@ -48,7 +48,7 @@ OVERWRITE_HAWQ_AMBARI_PLUGIN=0
 VM_BOX = "bigdata/centos6.4_x86_64"
 
 # Memory (MB) allocated for the master PHD VM
-MASTER_PHD_MEMORY_MB = "3072"
+MASTER_PHD_MEMORY_MB = "2072"
 
 # Memory (MB) allocated for every PHD node VM
 #WORKER_PHD_MEMORY_MB = "1536"
